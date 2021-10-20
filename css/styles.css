@@ -8,6 +8,7 @@ img{
     display: block;
     max-width: 100%;
     margin:auto;
+    object-fit: fill;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -289,7 +290,7 @@ body{
         text-align: center;
     }
     
-    .cursos__descripcion{
+    /*.cursos__descripcion{
         margin: 10 px;
         padding: 20 px;
         display: flex;
@@ -297,7 +298,7 @@ body{
         justify-content: center;
         align-items: center;
         align-content: center;
-    }
+    }*/
     .cursos__titulo{
         font-size:30px;
         margin:10px;
