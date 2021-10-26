@@ -49,6 +49,7 @@ body{
     margin: auto;
     margin-top: -300px;
     overflow: hidden;
+
 }
 
 .slider ul{
@@ -56,7 +57,8 @@ body{
     padding: 0;
     width:400%;
 
-    animation: cambio 15s infinite;
+    animation: cambio 15s infinite alternate;
+    animation-timing-function: ease-in;
 
 }
 
@@ -69,7 +71,23 @@ body{
     width: 1300px;
     height: 400px;
     object-fit: cover;
+    filter: opacity(90%) grayscale(80%);
 }
+
+.slider__titulo{
+    position: relative;
+    font-size:100px;
+}
+
+.slider__txt{
+    top: 50%;
+    left: 50%;
+}
+
+.slider__element {
+    text-align:center;
+}
+
 
 @keyframes cambio {
     0% {margin-left:  0;}
@@ -82,8 +100,8 @@ body{
     50% {margin-left:  -200%;}
     70% {margin-left:  -200%;}
 
-    75% {margin-left:  -200%;}
-    100% {margin-left: -200%;}
+    75% {margin-left:  -300%;}
+    100% {margin-left: -300%;}
 }
 
 /*--------------Estilos del header----------------*/ 
