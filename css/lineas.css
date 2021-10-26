@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background:
+    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+    #39923e;
+    background-size: 20px 20px;
+}
+
 img{
     display: block;
     max-width: 100%;
@@ -19,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__titulo {
     text-align: center;
     font-size: 40px;
-    color: #A5D2F4
+    color: #816108
 
 }
 
@@ -50,7 +58,7 @@ body{
 }
 
 .logo{
-    color: #A5D2F4;
+    color: #816108;
     text-decoration: bolder;
     -webkit-text-stroke: 0.3px black;
 }
@@ -59,7 +67,7 @@ body{
     width: 40px;
     height: 40px;
     font-size: 30px;
-    background: #A5D2F4 ;
+    background: #816108 ;
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
@@ -88,14 +96,14 @@ body{
 .menu__link {
     display:block;
     padding: 15px;
-    background: #A5D2F4 ;
+    background: #816108 ;
     text-decoration: none;
     color: #fff;
 }
 
 .menu__link:hover, .select {
     background: white;
-    color: #A5D2F4;
+    color: #816108;
 }
 
 .show{
@@ -131,7 +139,7 @@ body{
 
 .info__columna {
 
-    background:#A5D2F4;
+    background:#816108;
     color:#fff;
     padding: 15px;
     margin-bottom:  30px;
@@ -278,7 +286,7 @@ body{
 
     .select{
         color: #fff;
-        background: #A5D2F4;
+        background: #816108;
     }
     .banner__titulo{
         font-size: 60px;

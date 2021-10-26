@@ -1,14 +1,17 @@
 body {
     height:665px;
-    background-image: url("../img/banner2.jpg") ;
-    
+    background:
+    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
+    #39923e;
+    background-size: 20px 20px;
   }
 
 .img__perfil{
   width: 20px;
   height: 400px;
   object-fit: contain;
-
+  margin-top: 20px;
 }
 
   /*-------Estilos del header-----------*/
@@ -27,7 +30,7 @@ body {
 }
 
 .logo{
-    color: #A5D2F4;
+    color: #816108;
     text-decoration: bolder;
     -webkit-text-stroke: 0.3px black;
 }
@@ -36,7 +39,7 @@ body {
     width: 40px;
     height: 40px;
     font-size: 30px;
-    background: #A5D2F4 ;
+    background: #816108 ;
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
@@ -65,14 +68,14 @@ body {
 .menu__link {
     display:block;
     padding: 15px;
-    background: #A5D2F4 ;
+    background: #816108 ;
     text-decoration: none;
     color: #fff;
 }
 
 .menu__link:hover, .select {
     background: white;
-    color: #A5D2F4;
+    color: #816108;
 }
 
 .show{
@@ -110,7 +113,8 @@ body {
   
   /* Add some shadows to create a card effect */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   }
   
   /* Some left and right padding inside the container */
@@ -171,6 +175,6 @@ body {
 
     .select{
         color: #fff;
-        background: #A5D2F4;
+        background: #816108;
     }
   }
