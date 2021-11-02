@@ -1,10 +1,6 @@
 body {
-    height:665px;
-    background:
-    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
-    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
-    #39923e;
-    background-size: 20px 20px;
+  background-image: url(../img/fondoVerduras1.jpg) ;
+  background-size: cover;
   }
 
 .img__perfil{
