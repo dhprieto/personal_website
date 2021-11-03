@@ -26,7 +26,7 @@ body {
 }
 
 .logo{
-    color: #816108;
+    color: #057a0c;
     text-decoration: bolder;
     -webkit-text-stroke: 0.3px black;
 }
@@ -35,7 +35,7 @@ body {
     width: 40px;
     height: 40px;
     font-size: 30px;
-    background: #816108 ;
+    background: #057a0c ;
     text-align: center;
     line-height: 45px;
     border-radius: 5px;
@@ -48,34 +48,34 @@ body {
 /*--------------Estilos del menu----------------*/ 
 
 .nav{
-    position: absolute;
-    top: 60px;
-    left: -100%;
-    width: 100%;
-    transition: all 0.4s;
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
 }
 
 .menu {
-    list-style: none;
-    padding: 0;
-    margin: 0; 
+  list-style: none;
+  padding: 0;
+  margin: 0; 
 }
 
 .menu__link {
-    display:block;
-    padding: 15px;
-    background: #816108 ;
-    text-decoration: none;
-    color: #fff;
+  display:block;
+  padding: 15px;
+  background: #057a0c ;
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu__link:hover, .select {
-    background: white;
-    color: #816108;
+  background: white;
+  color: #057a0c;
 }
 
 .show{
-    left:0
+  left:0
 }
 
 /* Estilos contenido */
@@ -95,82 +95,84 @@ body {
     padding: 0 8px;
   }
   
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .logo{
-        font-size: 40px;
-    }
-    
-    .column {
-      width: 100%;
-      display: block;
-    }
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .logo{
+      font-size: 40px;
   }
   
-  /* Add some shadows to create a card effect */
-  .card {
-    background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: whitesmoke;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
+  .column {
     width: 100%;
+    display: block;
   }
-  
-  .button:hover {
-    background-color: #555;
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: whitesmoke;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+@media(min-width: 650px){
+
+
+  .section__titulo{
+
+      font-size: 50px;
+      margin: 10px 0;
   }
-  
-
-  @media(min-width: 650px){
-
-
-    .section__titulo{
-
-        font-size: 50px;
-        margin: 10px 0;
-    }
-    .nav {
-        position: static;
-        width: auto;
-    }
-    .menu{
-        display:flex;
-    }
-    .icon-menu{
-        display:none;
-    }
-    .menu__link{
-        background :none;
-        font-size: 20px;
-    }
-
-    .select{
-        color: #fff;
-        background: #816108;
-    }
+  .nav {
+      position: static;
+      width: auto;
   }
+  .menu{
+      display:flex;
+  }
+  .icon-menu{
+      display:none;
+  }
+  .menu__link{
+      background :none;
+      font-size: 20px;
+  }
+  .logo{
+    font-size: 70px;
+  }
+  .select{
+      color: #fff;
+      background: #057a0c;
+  }
+}
