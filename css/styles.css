@@ -456,11 +456,11 @@ display: table;
 
 @media(min-width:1280px){
 
-    .contenedor .container{
+    .contenedor{
         width: 1200px;
     }
 
-
+    
     .logo{
         font-size: 70px;
     }
