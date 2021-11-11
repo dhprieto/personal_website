@@ -20,9 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1.5px;
 }
 
-
-
-
 .contenedor{
     margin:auto;
     width:98%;
@@ -104,7 +101,7 @@ body{
 
 /*-----Estilos del banner-----*/
 
-.banner {
+.banner__lineas {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -138,7 +135,7 @@ body{
 }
 
 /*-----Estilos de cursos-----*/
-.cursos__columna {
+.lineas__columna {
 
     
     float: left;
@@ -148,7 +145,7 @@ body{
     position:relative;
     margin-bottom: 30px;
 }
-.cursos__descripcion{
+.lineas__descripcion{
     position:absolute;
     top:0;
     left:0;
@@ -161,14 +158,14 @@ body{
 
 }
 
-.cursos__titulo{
+.lineas__titulo{
 
     font-size: 25px;
     margin: 5px 0;
 
 }
 
-.cursos__img{
+.lineas__img{
     width: 1500px;
     height: 250px;
     object-fit: cover;
