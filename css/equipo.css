@@ -27,8 +27,7 @@ body {
 
 .logo{
     color: #057a0c;
-    text-decoration: bolder;
-    -webkit-text-stroke: 0.3px black;
+
 }
 .icon-menu {
     display: block;
