@@ -270,7 +270,7 @@ body{
     left:0;
     color: #fff;
     background: rgba(0,0,0,0.5);
-    width:60%;
+    width:100%;
 }
 
 .cursos__titulo{
@@ -482,7 +482,7 @@ body{
     }
 
     .cursos__columna{
-        width:48%;
+        width:100%;
 
     }
 
